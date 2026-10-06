@@ -1,3 +1,7 @@
 langchain
 langchain_community
+langchain-chroma
+langchain-ollama
+chromadb
+streamlit
 python-dotenv
