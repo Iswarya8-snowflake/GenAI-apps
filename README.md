@@ -112,3 +112,6 @@ On first launch, the application will automatically read and index all documents
    The application retrieves the top 4 chunks per question to fit within low-latency bounds for small 3B models. Complex cross-incident trend inquiries may require higher `TOP_K` values.
 4. **Strict Grounding:**
    The model is strictly instructed not to use outside knowledge. If a question uses terminology not present in the indexed runbooks or incident reports, it will declare that the context lacks sufficient information rather than attempting to guess.
+
+
+<img width="956" height="470" alt="image" src="https://github.com/user-attachments/assets/ad0abe18-7ec0-4fd2-88b2-ecb31df06271" />
